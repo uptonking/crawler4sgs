@@ -1,0 +1,518 @@
+{
+	"groups": [
+		{
+			"keys": "test_json,ViewTipConfig_json,mainLoading_atlas",
+			"name": "mainLoading"
+		},
+		{
+			"keys": "GameRoleNameConf_json,Achievement_json,I18nConfig_json,ErrorConfig_json,Cards_json,GeneralCards_json,Skills_json,GuildConfig_json,GeneralSkinInfo_json,GeneralSkinSkillDialogConfig_json,GeneralSkinSuitConfig_json,AthleticsSeasonConf_json,GameMode_json,GeneralStoryConfig_json,StoryPlotConfig_json,GameItemConfig_json,GameGeneralConfig_json,BattleBgConfig_json,GameItemTipsConfig_json,CityConfig_json,TaskConfig_json,TaskSecTypeConfig_json,CalendarConfig_json,ModeRankConfig_json,VipConfig_json,ChatFaceConfig_json,GameDressSuitConfig_json,GameGlobalConfig_json,AthleticsSeasonRewardConf_json,RankRewardConfig_json,GameLevelConfig_json,GameGuideClientConfig_json,ItemPreviewConf_json,ResultRewardNotObtainedConfig_json,GamePrayConfig_json,GameRuleConfig_json,ActivityAreaConfig_json,WenHeLuanWuConfig_json",
+			"name": "config"
+		},
+		{
+			"keys": "login_atlas,loginbg_jpg",
+			"name": "login"
+		},
+		{
+			"keys":"obtainProp_atlas,SF_animation_daojuhuode_sk",
+			"name":"obtainProp"
+		},
+		{
+			"keys":"guide_atlas,guideStartPlotBg_png,guideXiaosha_sk,guideXiaoShaCircle_sk,guideDirectionArrow_sk,guideFinger_sk,sf_dhua_zhaomuwj_wujiang_sk,sf_dhua_zhaomuwj_wujiang_heng_sk",
+			"name":"guideGroup"
+		},
+		{
+			"keys":"storyPlot_atlas",
+			"name":"storyPlot"
+		},
+		{
+			"keys":"mode_atlas,rank_atlas,hallbgframe,hallbg,F_eff_ui_anniu_zhuizi_sk,SF_eff_ui_moshi_wujiangliezhuan,SF_eff_ui_moshi_shenfenchang_sk,SF_eff_ui_moshi_guozhan_sk,SF_eff_ui_moshi_tongshuaisanjun_sk,SF_eff_ui_moshi_huanlechengshuang_sk",
+			"name":"mode"
+		},
+		{
+			"keys":"hall_atlas,hallbgframe,hallbg,rank_atlas,dianjiang_atlas",
+			"name":"hall"
+		},
+		{
+			"keys": "login,baseUI_atlas,baseComp_atlas,chat_atlas,userset_atlas,vipFlag_atlas,generalToolTip_atlas,obtainProp,F_eff_ui_anniu_wupisan_sk,sf_ui_eff_yanwu_sk,guideGroup,storyPlot,generalExt_atlas,skinQualityFlag_sk",
+			"name": "preload"
+		},
+		{
+			"keys": "seatStateGreen_sk,seatStateRed_sk,seatStateYellow_sk,seatAttackTarget_sk,shoujidonghua_sk,kouxuedonghua_sk,guozhan_kouxue_sk,selfSeatCountEffect_sk,skillSelectEffect_sk,aoZhanTaoEffect_sk,aideButtonLight_sk,aideCardLight_sk,aideGeneralLight_sk,aideSkillLight_sk",
+			"name": "gameAnimation"
+		},
+		{
+			"keys": "",
+			"name": "environment"
+		},
+		{
+			"keys": "wenheluanwu_atlas,wenheluanwu_jiaxu_sk",
+			"name": "wenheluanwu"
+		},
+		{
+			"keys": "gameAnimation,gameAction_atlas,gameBase_atlas,seat_atlas,card_atlas,figure_atlas,skill_window_atlas,selfseat_atlas,seat_bottom_atlas,selectGeneral_atlas,sf_jiesuan_quanchangzuijia_sk,sf_jiesuan_wujiangchuxian_heng_sk,sf_jiesuan_wujiangchuxian1_sk,sf_jiesuan_wujiangchuxian2_sk,sf_jiesuan_wujiangchuxian2_heng_pk",
+			"name": "game"
+		},
+		{
+			"keys":"story_atlas,hallbgframe,hallbg",
+			"name":"story"
+		},
+		{
+			"keys":"createRole_atlas,SF_eff_chuangjue_jueseqiehuan_sk,SF_eff_chuangjue_huaban_sk,SF_eff_chuangjue_kaishianniu_sk,hallbgframe,hallbg,createRole_bg",
+			"name":"createRole"
+		},
+		{
+			"keys":"teamMatch_atlas,rank_atlas,matchbg,match_loading_sk",
+			"name":"teamMatch"
+		},
+		{
+			"keys":"table_atlas,TableListBG,card_atlas,hallbgframe,hallbg,sf_ui_eff_guajian_pk,sf_ui_eff_fangjianchengyuan_pk,sf_ui_eff_guajian_sk,dianjiang_atlas",
+			"name":"table"
+		},
+		{
+			"keys":"generalSkin_atlas,generalSkinInfoBg_png,skinCollectionEffect_sk,skinBagBtnEffect_sk,dynamicSkinFilterEffect_sk,SF_eff_wujiangpifu_tishi_sk,skinHeChengEffect_sk,skinFenJieEffect_sk,skinUpgradeEffect_sk",
+			"name":"generalSkin"
+		},
+		{
+			"keys":"generalSkinBag_atlas,SF_wujiangpifu_kaimen_sk,SF_wujiangpifu_diguang_sk,SF_wujiangpifu_kabeiguang_sk,SF_wujiangpifu_1xiyou_sk,SF_wujiangpifu_2shishi_sk,SF_wujiangpifu_3chuangshuo_sk,SF_wujiangpifu_zhankai1_sk,SF_wujiangpifu_zhanka2_sk,SF_wujiangpifu_zhankai3_sk,skinBagBg_png,skinbag_closedoor_sound,skinbag_indent_sound,skinbag_opendoor_sound,skinbag_openskin_sound",
+			"name":"generalSkinBag"
+		},
+		{
+			"keys":"",
+			"name":"skinGroup"
+		},
+		{
+			"keys":"shop_atlas",
+			"name":"shop"
+		},
+		{
+			"keys":"shopBuy_atlas,coupon_atlas",
+			"name":"shopBuy"
+		},
+		{
+			"keys":"vip_atlas,vipMaxIcon_atlas",
+			"name":"vip"
+		},
+		{
+			"keys":"vipUpgrade_atlas,vipUpgradeEffect_sk,vipMaxIcon_atlas",
+			"name":"vipUpgrade"
+		},
+		{
+			"keys":"avatarShow_atlas,SF_ui_eff_lingqitubiao_sk,SF_sanguoxiu_eff_zhizuo2_sk,SF_sanguoxiufang_rukou_sk",
+			"name":"avatarShow"
+		},
+		{
+			"keys":"gameActivity_atlas",
+			"name":"gameActivity"
+		},
+		{
+			"keys":"gameBag_atlas",
+			"name":"gameBag"
+		},
+		{
+			"keys":"gameGeneral_atlas,SF_tianlao_eff_biankuang_sk,SF_tianlao_eff_icon_sk,SF_tianlao_eff_icon2_sk",
+			"name":"gameGeneral"
+		},
+		{
+			"keys":"gameGeneralFilter_atlas",
+			"name":"gameGeneralFilter"
+		},
+		{
+			"keys":"gameGeneralInfo_atlas",
+			"name":"gameGeneralInfo"
+		},
+		{
+			"keys":"gameGeneralStory_atlas",
+			"name":"gameGeneralStory"
+		},
+		{
+			"keys":"gameGeneralOpen_atlas,sf_dhua_zhaomuwj_sk,sf_dhua_zhaomuwj_wujiang_sk",
+			"name":"gameGeneralOpen"
+		},
+		{
+			"keys":"gameGeneralTupo_atlas,SF_eff_tupo01_sk,SF_eff_tupo02_sk",
+			"name":"gameGeneralTupo"
+		},
+		{
+			"keys":"gameGeneralUpGrade_atlas,gameGeneral_atlas,SF_ui_eff_shengjie1_sk,SF_ui_eff_shengjie2_sk,SF_ui_eff_shengjie3_sk",
+			"name":"gameGeneralUpGrade"
+		},
+		{
+			"keys":"gameGeneralJiangyin_atlas,SF_animation_jiangyinhecheng_sk,SF_animation_jiangyinhecheng_back_sk",
+			"name":"gameGeneralJiangyin"
+		},
+		{
+			"keys":"guild_atlas,SF_gonghui_eff_qiaogu01_sk",
+			"name":"guild"
+		},
+		{
+			"keys":"task_atlas,SF_ui_huoyuedu_lianhua_sk,SF_ui_huoyuedu_lianhua2_sk",
+			"name":"task"
+		},
+		{
+			"keys":"userinfo_atlas,vipMaxIcon_atlas,rank_atlas",
+			"name":"userinfo"
+		},
+		{
+			"keys":"rankWindow_atlas",
+			"name":"rankWindow"
+		},
+		{
+			"keys":"friend_atlas",
+			"name":"friend"
+		},
+		{
+			"keys":"dianjiang_atlas",
+			"name":"dianjiang"
+		},
+		{
+			"keys":"seasonReward_atlas",
+			"name":"seasonReward"
+		},
+		{
+			"keys":"mailWindow_atlas",
+			"name":"mailWindow"
+		},
+		{
+			"keys":"sendMailWindow_atlas",
+			"name":"sendMailWindow"
+		},
+		{
+			"keys":"gameover_atlas,dipan_sk,shenglishibaiwenzi_sk,Shengxing_Jiangxing_sk,rank_atlas",
+			"name":"gameover"
+		},
+		{
+			"keys":"whlwResult_atlas",
+			"name":"whlwResult"
+		},
+		{
+			"keys":"replayWindow_atlas,rank_atlas",
+			"name":"replayWindow"
+		},
+		{
+			"keys":"qqBrowserHint_atlas",
+			"name":"qqBrowserHint"
+		},
+		{
+			"keys":"notWebGLHint_atlas",
+			"name":"notWebGLHint"
+		},
+		{
+			"keys":"welfare_atlas",
+			"name":"welfare"
+		},
+		{
+			"keys":"guildWars_atlas",
+			"name":"guildWars"
+		},
+		{
+			"keys":"secondDayReward_atlas,SF_qiridenglu_eff_zhenji_sk",
+			"name":"secondDayReward"
+		},
+		{
+			"keys":"gamePray_atlas,prayFullScreenBg_sk,SF_eff_qifu_zhanshi_sk,praySkinDressPetal_sk,prayMRTButton_sk,SF_qifu_eff_chuxiantx_sk,SF_qifu_eff_pzhongse_sk,SF_qifu_eff_pzhuangse_sk,SF_qifutai_eff_idle_sk,SF_qifutai_eff_kaiqi_sk",
+			"name":"gamePray"
+		},
+		{
+			"keys":"prayFamous_atlas",
+			"name":"prayFamous"
+		},
+		{
+			"keys":"activityAd_atlas",
+			"name":"activityAd"
+		},
+		{
+			"keys":"athleticsShop_atlas",
+			"name":"athleticsShop"
+		},
+		{
+			"keys":"gamePrayShop_atlas",
+			"name":"gamePrayShop"
+		},
+		{
+			"keys":"SF_paiju_eff_pindian_sk",
+			"name":"pindianEffect"
+		},		
+		{
+			"keys":"generalize_atlas,coupon_atlas",
+			"name":"generalize"
+		}
+	],
+	"resources": [
+		{"url": "assets/test.json","type": "atlas","name": "test_json"},
+		{"url": "config/Config.sgs","type": "arraybuffer","name": "Config_sgs"},
+		{"url": "config/GameRoleNameConfig.json","type": "json","name": "GameRoleNameConf_json"},
+		{"url": "config/ItemPreviewConfig.json","type": "json","name": "ItemPreviewConf_json"},
+		{"url": "config/Achievement.json","type": "json","name": "Achievement_json"},
+		{"url": "config/I18nConfig.json","type": "json","name": "I18nConfig_json"},
+		{"url": "config/ErrorConfig.json","type": "json","name": "ErrorConfig_json"},
+		{"url": "config/AthleticsSeasonConf.json","type": "json","name": "AthleticsSeasonConf_json"},
+		{"url": "config/AthleticsSeasonRewardConf.json","type": "json","name": "AthleticsSeasonRewardConf_json"},
+		{"url": "config/RankRewardConfig.json","type": "json","name": "RankRewardConfig_json"},
+		{"url": "config/GameGlobalConfig.json","type": "json","name": "GameGlobalConfig_json"},
+		{"url": "config/GameDressSuitConfig.json","type": "json","name": "GameDressSuitConfig_json"},
+		{"url": "config/GameGuideClientConfig.json","type": "json","name": "GameGuideClientConfig_json"},
+		{"url": "config/ViewTipConfig.json","type": "json","name": "ViewTipConfig_json"},
+		{"url": "config/WenHeLuanWuConfig.json","type": "json","name": "WenHeLuanWuConfig_json"},
+		{"url": "assets/mainLoading/mainLoading.atlas","type": "atlas","name": "mainLoading_atlas"},
+		{"url": "assets/bg/loginbg.jpg","type": "image","name": "loginbg_jpg"},
+		{"url": "assets/login/login.atlas","type": "atlas","name": "login_atlas"},		
+		{"url": "assets/mainLoading/loadingBg1.jpg","type": "image","name": "loadingBg1"},
+		{"url": "assets/mainLoading/loadingBg2.jpg","type": "image","name": "loadingBg2"},
+		{"url": "assets/mainLoading/loadingBg3.jpg","type": "image","name": "loadingBg3"},
+		{"url": "assets/mainLoading/loadingBg4.jpg","type": "image","name": "loadingBg4"},
+		{"url": "assets/createRole/createRole.atlas","type": "atlas","name": "createRole_atlas"},
+		{"url": "assets/animate/createRole/SF_eff_chuangjue_jueseqiehuan.sk","type": "arraybuffer","name": "SF_eff_chuangjue_jueseqiehuan_sk"},
+		{"url": "assets/animate/createRole/SF_eff_chuangjue_huaban.sk","type": "arraybuffer","name": "SF_eff_chuangjue_huaban_sk"},
+		{"url": "assets/animate/createRole/SF_eff_chuangjue_kaishianniu.sk","type": "arraybuffer","name": "SF_eff_chuangjue_kaishianniu_sk"},
+		{"url": "assets/runtime/battleBg/zhanchangbeijing_s.jpg","type": "image","name": "createRole_bg"},
+		{"url": "config/TaskConfig.json","type": "json","name": "TaskConfig_json"},
+		{"url": "config/Cards.json","type": "json","name": "Cards_json"},
+		{"url": "config/GeneralCards.json","type": "json","name": "GeneralCards_json"},
+		{"url": "config/Skills.json","type": "json","name": "Skills_json"},
+		{"url": "config/GuildConfig.json","type": "json","name": "GuildConfig_json"},
+		{"url": "config/GeneralSkinInfoConfig.json","type": "json","name": "GeneralSkinInfo_json"},
+		{"url": "config/GeneralSkinSkillDialogConfig.json","type": "json","name": "GeneralSkinSkillDialogConfig_json"},
+		{"url": "config/GeneralSkinSuitConfig.json","type": "json","name": "GeneralSkinSuitConfig_json"},
+		{"url": "config/GameModeConfig.json","type": "json","name": "GameMode_json"},
+		{"url": "config/GeneralStoryConfig.json","type": "json","name": "GeneralStoryConfig_json"},
+		{"url": "config/StoryPlotConfig.json","type": "json","name": "StoryPlotConfig_json"},
+		{"url": "config/GameItemConfig.json","type": "json","name": "GameItemConfig_json"},
+		{"url": "config/GameGeneralConfig.json","type": "json","name": "GameGeneralConfig_json"},
+		{"url": "config/BattleBgConfig.json","type": "json","name": "BattleBgConfig_json"},
+		{"url": "config/TaskSecTypeConfig.json","type": "json","name": "TaskSecTypeConfig_json"},
+		{"url": "config/CalendarConfig.json","type": "json","name": "CalendarConfig_json"},
+		{"url": "config/ModeRankConfig.json","type": "json","name": "ModeRankConfig_json"},
+		{"url": "config/VipConfig.json","type": "json","name": "VipConfig_json"},
+		{"url": "config/ChatFaceConfig.json","type": "json","name": "ChatFaceConfig_json"},
+		{"url": "config/GameLevelConfig.json","type": "json","name": "GameLevelConfig_json"},
+		{"url": "config/ResultRewardNotObtainedConfig.json","type": "json","name": "ResultRewardNotObtainedConfig_json"},
+		{"url": "config/GamePrayConfig.json","type": "json","name": "GamePrayConfig_json"},
+		{"url": "config/GameRuleConfig.json","type": "json","name": "GameRuleConfig_json"},
+		{"url": "config/ActivityAreaConfig.json","type": "json","name": "ActivityAreaConfig_json"},
+
+		{"url": "assets/baseUI/baseUI.atlas","type": "atlas","name": "baseUI_atlas"},
+		{"url": "assets/baseUI/baseComp.atlas","type": "atlas","name": "baseComp_atlas"},
+		{"url": "assets/baseUI/generalToolTip.atlas","type": "atlas","name": "generalToolTip_atlas"},
+		{"url": "assets/animate/generalSkin/skinQualityFlag.sk","type": "arraybuffer","name": "skinQualityFlag_sk"},
+		{"url": "assets/game/gameBase.atlas","type": "atlas","name": "gameBase_atlas"},
+		{"url": "assets/game/seat.atlas","type": "atlas","name": "seat_atlas"},
+		{"url": "assets/game/gameAction.atlas","type": "atlas","name": "gameAction_atlas"},
+		{"url": "assets/game/selfseat.atlas","type": "atlas","name": "selfseat_atlas"},
+		{"url": "assets/game/seat_bottom.atlas","type": "atlas","name": "seat_bottom_atlas"},
+		{"url": "assets/animate/battle/mvp/sf_jiesuan_quanchangzuijia.sk","type": "arraybuffer","name": "sf_jiesuan_quanchangzuijia_sk"},
+		{"url": "assets/animate/battle/mvp/sf_jiesuan_wujiangchuxian_heng.sk","type": "arraybuffer","name": "sf_jiesuan_wujiangchuxian_heng_sk"},
+		{"url": "assets/animate/battle/mvp/sf_jiesuan_wujiangchuxian1.sk","type": "arraybuffer","name": "sf_jiesuan_wujiangchuxian1_sk"},
+		{"url": "assets/animate/battle/mvp/sf_jiesuan_wujiangchuxian2.sk","type": "arraybuffer","name": "sf_jiesuan_wujiangchuxian2_sk"},
+		{"url": "assets/animate/battle/mvp/sf_jiesuan_wujiangchuxian2_heng.sk","type": "arraybuffer","name": "sf_jiesuan_wujiangchuxian2_heng_pk"},
+		{"url": "asassets/animate/battle/gamestart/youxikaishi.sk","type": "arraybuffer","name": "youxikaishi_sk"},
+		{"url": "assets/window/gameover.atlas","type": "atlas","name": "gameover_atlas"},
+		{"url": "assets/window/whlwResult.atlas","type": "atlas","name": "whlwResult_atlas"},
+		{"url": "assets/animate/battle/gameover/dipan.sk","type": "arraybuffer","name": "dipan_sk"},
+		{"url": "assets/animate/battle/gameover/shenglishibaiwenzi.sk","type": "arraybuffer","name": "shenglishibaiwenzi_sk"},
+		{"url": "assets/animate/battle/gameover/Shengxing_Jiangxing.sk","type": "arraybuffer","name": "Shengxing_Jiangxing_sk"},
+		{"url": "assets/animate/battle/gameover/weishi.sk","type": "arraybuffer","name": "weishi_sk"},
+		{"url": "assets/animate/battle/gameover/xiaowei.sk","type": "arraybuffer","name": "xiaowei_sk"},
+		{"url": "assets/animate/battle/gameover/zhonglangjiang.sk","type": "arraybuffer","name": "zhonglangjiang_sk"},
+		{"url": "assets/animate/battle/gameover/long.sk","type": "arraybuffer","name": "long_sk"},
+		{"url": "assets/animate/battle/gameover/dajiang.sk","type": "arraybuffer","name": "dajiang_sk"},
+		{"url": "assets/animate/battle/gameover/lingjun.sk","type": "arraybuffer","name": "lingjun_sk"},
+		{"url": "assets/animate/hall/F_eff_ui_anniu_wupisan.sk","type": "arraybuffer","name": "F_eff_ui_anniu_wupisan_sk"},
+		{"url": "assets/cards/normal/card.atlas","type": "atlas","name": "card_atlas"},
+		{"url": "assets/game/figure.atlas","type": "atlas","name": "figure_atlas"},
+		{"url": "assets/game/skill_window.atlas","type": "atlas","name": "skill_window_atlas"},
+
+		{"url": "assets/animate/battle/seatStateGreen.sk","type": "arraybuffer","name": "seatStateGreen_sk"},
+		{"url": "assets/animate/battle/seatStateRed.sk","type": "arraybuffer","name": "seatStateRed_sk"},
+		{"url": "assets/animate/battle/seatStateYellow.sk","type": "arraybuffer","name": "seatStateYellow_sk"},
+		{"url": "assets/animate/battle/seatAttackTarget.sk","type": "arraybuffer","name": "seatAttackTarget_sk"},
+		{"url": "assets/animate/battle/shoujidonghua.sk","type": "arraybuffer","name": "shoujidonghua_sk"},
+		{"url": "assets/animate/battle/kouxuedonghua.sk","type": "arraybuffer","name": "kouxuedonghua_sk"},
+		{"url": "assets/animate/battle/guozhan_kouxue.sk","type": "arraybuffer","name": "guozhan_kouxue_sk"},
+		{"url": "assets/animate/battle/selfSeatCountEffect.sk","type": "arraybuffer","name": "selfSeatCountEffect_sk"},
+		{"url": "assets/animate/battle/skillSelectEffect.sk","type": "arraybuffer","name": "skillSelectEffect_sk"},
+		{"url": "assets/animate/battle/aoZhanTaoEffect.sk","type": "arraybuffer","name": "aoZhanTaoEffect_sk"},
+		{"url": "assets/animate/battle/aideButtonLight.sk","type": "arraybuffer","name": "aideButtonLight_sk"},
+		{"url": "assets/animate/battle/aideCardLight.sk","type": "arraybuffer","name": "aideCardLight_sk"},
+		{"url": "assets/animate/battle/aideGeneralLight.sk","type": "arraybuffer","name": "aideGeneralLight_sk"},
+		{"url": "assets/animate/battle/aideSkillLight.sk","type": "arraybuffer","name": "aideSkillLight_sk"},
+
+		{"url": "assets/game/environment/aoZhan.atlas","type": "atlas","name": "aoZhanEnv_atlas"},
+		{"url": "assets/animate/gameEnv/SF_paijuhuanjing_eff_aozhan.sk","type": "arraybuffer","name": "SF_paijuhuanjing_eff_aozhan_sk"},
+		{"url": "assets/game/environment/guildWars.atlas","type": "atlas","name": "guildWarsEnv_atlas"},
+		{"url": "assets/animate/gameEnv/SF_paijuhuanjing_eff_haiyang.sk","type": "arraybuffer","name": "SF_paijuhuanjing_eff_haiyang_sk"},
+		{"url": "assets/animate/gameEnv/SF_paijuhuanjing_eff_ludi.sk","type": "arraybuffer","name": "SF_paijuhuanjing_eff_ludi_sk"},
+		{"url": "assets/animate/gameEnv/SF_paijuhuanjing_eff_tiankong.sk","type": "arraybuffer","name": "SF_paijuhuanjing_eff_tiankong_sk"},
+		{"url": "assets/game/environment/wenheluanwu.atlas","type": "atlas","name": "wenheluanwuEnv_atlas"},
+		{"url": "assets/animate/gameEnv/SF_wenheluanwu_eff_luanwu.sk","type": "arraybuffer","name": "SF_wenheluanwu_eff_luanwu_sk"},
+
+		{"url": "assets/game/wenheluanwu.atlas","type": "atlas","name": "wenheluanwu_atlas"},
+		{"url": "assets/animate/battle/wenheluanwu_jiaxu.sk","type": "arraybuffer","name": "wenheluanwu_jiaxu_sk"},
+
+		
+
+
+		{"url": "assets/hall/hall.atlas","type": "atlas","name": "hall_atlas"},
+		{"url": "assets/animate/room/yanwu/sf_ui_eff_yanwu.sk","type": "arraybuffer","name": "sf_ui_eff_yanwu_sk"},
+		{"url": "assets/animate/gameAvatar/SF_sanguoxiu_eff_zhizuo2.sk","type": "arraybuffer","name": "SF_sanguoxiu_eff_zhizuo2_sk"},
+		{"url": "assets/animate/gameAvatar/SF_sanguoxiufang_rukou.sk","type": "arraybuffer","name": "SF_sanguoxiufang_rukou_sk"},
+		{"url": "assets/mode/mode.atlas","type": "atlas","name": "mode_atlas"},
+		{"url": "assets/animate/mode/F_eff_ui_anniu_zhuizi.sk","type": "arraybuffer","name": "F_eff_ui_anniu_zhuizi_sk"},
+		{"url": "assets/animate/mode/SF_eff_ui_moshi_wujiangliezhuan.sk","type": "arraybuffer","name": "SF_eff_ui_moshi_wujiangliezhuan"},
+		{"url": "assets/animate/mode/SF_eff_ui_moshi_shenfenchang.sk","type": "arraybuffer","name": "SF_eff_ui_moshi_shenfenchang_sk"},
+		{"url": "assets/animate/mode/SF_eff_ui_moshi_guozhan.sk","type": "arraybuffer","name": "SF_eff_ui_moshi_guozhan_sk"},
+		{"url": "assets/animate/mode/SF_eff_ui_moshi_tongshuaisanjun.sk","type": "arraybuffer","name": "SF_eff_ui_moshi_tongshuaisanjun_sk"},
+		{"url": "assets/animate/mode/SF_eff_ui_moshi_huanlechengshuang.sk","type": "arraybuffer","name": "SF_eff_ui_moshi_huanlechengshuang_sk"},
+		{"url": "assets/story/stroy.atlas","type": "atlas","name": "story_atlas"},
+		{"url": "assets/bg/matchbg.jpg","type": "image","name": "matchbg"},
+		{"url": "assets/bg/hallbg.jpg","type": "image","name": "hallbg"},
+		{"url": "assets/bg/hallbgframe.png","type": "image","name": "hallbgframe"},
+		{"url": "assets/teamMatch/teamMatch.atlas","type": "atlas","name": "teamMatch_atlas"},
+		{"url": "assets/teamMatch/WenHeLuanWuBg.png","type": "image","name": "WenHeLuanWuBg"},
+		{"url": "assets/teamMatch/TeamWindowBg.png","type": "image","name": "TeamWindowBg"},
+		{"url": "assets/baseUI/rank.atlas","type": "atlas","name": "rank_atlas"},
+		{"url": "assets/baseUI/vipFlag.atlas","type": "atlas","name": "vipFlag_atlas"},
+		{"url": "assets/table/table.atlas","type": "atlas","name": "table_atlas"},
+		{"url": "assets/table/TableListBG.png","type": "image","name": "TableListBG"},
+		{"url": "assets/animate/room/jade/sf_ui_eff_guajian.sk","type": "arraybuffer","name": "sf_ui_eff_guajian_pk"},
+		{"url": "assets/animate/room/member/sf_ui_eff_fangjianchengyuan.sk","type": "arraybuffer","name": "sf_ui_eff_fangjianchengyuan_pk"},
+		{"url": "assets/window/generalSkin.atlas","type": "atlas","name": "generalSkin_atlas"},
+		{"url": "assets/window/generalSkinInfoBg.png","type": "image","name": "generalSkinInfoBg_png"},
+		{"url": "assets/animate/generalSkin/skinCollectionEffect.sk","type": "arraybuffer","name": "skinCollectionEffect_sk"},
+		{"url": "assets/animate/generalSkin/skinBagBtnEffect.sk","type": "arraybuffer","name": "skinBagBtnEffect_sk"},
+		{"url": "assets/animate/generalSkin/dynamicSkinFilterEffect.sk","type": "arraybuffer","name": "dynamicSkinFilterEffect_sk"},
+		{"url": "assets/animate/generalWindow/SF_eff_wujiangpifu_tishi.sk","type": "arraybuffer","name": "SF_eff_wujiangpifu_tishi_sk"},
+		{"url": "assets/animate/generalSkin/skinHeChengEffect.sk","type": "arraybuffer","name": "skinHeChengEffect_sk"},
+		{"url": "assets/animate/generalSkin/skinFenJieEffect.sk","type": "arraybuffer","name": "skinFenJieEffect_sk"},
+		{"url": "assets/animate/generalSkin/skinUpgradeEffect.sk","type": "arraybuffer","name": "skinUpgradeEffect_sk"},
+
+		{"url": "assets/window/generalSkinBag.atlas","type": "atlas","name": "generalSkinBag_atlas"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_kaimen.sk","type": "arraybuffer","name": "SF_wujiangpifu_kaimen_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_diguang.sk","type": "arraybuffer","name": "SF_wujiangpifu_diguang_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_kabeiguang.sk","type": "arraybuffer","name": "SF_wujiangpifu_kabeiguang_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_1xiyou.sk","type": "arraybuffer","name": "SF_wujiangpifu_1xiyou_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_2shishi.sk","type": "arraybuffer","name": "SF_wujiangpifu_2shishi_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_3chuangshuo.sk","type": "arraybuffer","name": "SF_wujiangpifu_3chuangshuo_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_zhankai1.sk","type": "arraybuffer","name": "SF_wujiangpifu_zhankai1_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_zhanka2.sk","type": "arraybuffer","name": "SF_wujiangpifu_zhanka2_sk"},
+		{"url": "assets/animate/generalSkinBag/SF_wujiangpifu_zhankai3.sk","type": "arraybuffer","name": "SF_wujiangpifu_zhankai3_sk"},
+		{"url": "assets/animate/generalWindow/SF_animation_jiangyinhecheng.sk","type": "arraybuffer","name": "SF_animation_jiangyinhecheng_sk"},
+		{"url": "assets/animate/generalWindow/SF_animation_jiangyinhecheng_back.sk","type": "arraybuffer","name": "SF_animation_jiangyinhecheng_back_sk"},
+		{"url": "assets/animate/generalWindow/sf_dhua_zhaomuwj.sk","type": "arraybuffer","name": "sf_dhua_zhaomuwj_sk"},
+		{"url": "assets/animate/teamMatch/loading.sk","type": "arraybuffer","name": "match_loading_sk"},
+		{"url": "assets/window/skinBagBg.png","type": "image","name": "skinBagBg_png"},
+		{"url": "assets/runtime/voice/effect/skinbag_closedoor_sound.mp3","type": "sound","name": "skinbag_closedoor_sound"},
+		{"url": "assets/runtime/voice/effect/skinbag_indent_sound.mp3","type": "sound","name": "skinbag_indent_sound"},
+		{"url": "assets/runtime/voice/effect/skinbag_opendoor_sound.mp3","type": "sound","name": "skinbag_opendoor_sound"},
+		{"url": "assets/runtime/voice/effect/skinbag_openskin_sound.mp3","type": "sound","name": "skinbag_openskin_sound"},
+
+		{"url": "assets/window/gameGeneral.atlas","type": "atlas","name": "gameGeneral_atlas"},
+		{"url": "assets/window/gameBag.atlas","type": "atlas","name": "gameBag_atlas"},
+		{"url": "assets/window/shop.atlas","type": "atlas","name": "shop_atlas"},
+		{"url": "assets/window/shopBuy.atlas","type": "atlas","name": "shopBuy_atlas"},
+		{"url": "assets/window/coupon.atlas","type": "atlas","name": "coupon_atlas"},
+		{"url": "config/GameItemTipsConfig.json","type": "json","name": "GameItemTipsConfig_json"},
+		{"url": "config/CityConfig.json","type": "json","name": "CityConfig_json"},
+		{"url": "assets/window/userinfo.atlas","type": "atlas","name": "userinfo_atlas"},
+		{"url": "assets/window/task.atlas","type": "atlas","name": "task_atlas"},
+		{"url": "assets/animate/task/SF_ui_huoyuedu_lianhua.sk","type": "arraybuffer","name": "SF_ui_huoyuedu_lianhua_sk"},
+		{"url": "assets/animate/task/SF_ui_huoyuedu_lianhua2.sk","type": "arraybuffer","name": "SF_ui_huoyuedu_lianhua2_sk"},
+		{"url": "assets/window/gameActivity.atlas","type": "atlas","name": "gameActivity_atlas"},
+		{"url": "assets/window/sevenday.atlas","type": "atlas","name": "sevenday_atlas"},
+		{"url": "assets/window/loginprize.atlas","type": "atlas","name": "loginprize_atlas"},
+		{"url": "assets/window/recharge.atlas","type": "atlas","name": "recharge_atlas"},
+		{"url": "assets/window/oldprize.atlas","type": "atlas","name": "oldprize_atlas"},
+		{"url": "assets/window/act10th.atlas","type": "atlas","name": "act10th_atlas"},
+		{"url": "assets/chat/chat.atlas","type": "atlas","name": "chat_atlas"},
+		{"url": "assets/window/vip.atlas","type": "atlas","name": "vip_atlas"},
+		{"url": "assets/window/vipMaxIcon.atlas","type": "atlas","name": "vipMaxIcon_atlas"},
+
+		{"url": "assets/window/vipUpgrade.atlas","type": "atlas","name": "vipUpgrade_atlas"},
+		{"url": "assets/animate/vip/vipUpgradeEffect.sk","type": "arraybuffer","name": "vipUpgradeEffect_sk"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg1.png","type": "image","name": "vipUpgradeBg1"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg2.png","type": "image","name": "vipUpgradeBg2"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg3.png","type": "image","name": "vipUpgradeBg3"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg4.png","type": "image","name": "vipUpgradeBg4"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg5.png","type": "image","name": "vipUpgradeBg5"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg6.png","type": "image","name": "vipUpgradeBg6"},
+		{"url": "assets/runtime/window/vipUpgrade/vipUpgradeBg7.png","type": "image","name": "vipUpgradeBg7"},
+		{"url": "assets/animate/vip/vipTotem1.sk","type": "arraybuffer","name": "vipTotem1_sk"},
+		{"url": "assets/animate/vip/vipTotem2.sk","type": "arraybuffer","name": "vipTotem2_sk"},
+		{"url": "assets/animate/vip/vipTotem3.sk","type": "arraybuffer","name": "vipTotem3_sk"},
+		{"url": "assets/animate/vip/vipTotem4.sk","type": "arraybuffer","name": "vipTotem4_sk"},
+		{"url": "assets/animate/vip/vipTotem5.sk","type": "arraybuffer","name": "vipTotem5_sk"},
+		{"url": "assets/animate/vip/vipTotem6.sk","type": "arraybuffer","name": "vipTotem6_sk"},
+		{"url": "assets/animate/vip/vipTotem7.sk","type": "arraybuffer","name": "vipTotem7_sk"},
+
+		{"url": "assets/window/userset.atlas","type": "atlas","name": "userset_atlas"},
+
+		{"url": "assets/window/obtainProp.atlas","type": "atlas","name": "obtainProp_atlas"},
+		{"url": "assets/animate/obtainProp/SF_animation_daojuhuode.sk","type": "arraybuffer","name": "SF_animation_daojuhuode_sk"},
+
+		{"url": "assets/window/selectGeneral.atlas","type": "atlas","name": "selectGeneral_atlas"},
+		{"url": "assets/window/avatarShow.atlas","type": "atlas","name": "avatarShow_atlas"},
+		{"url": "assets/window/guild.atlas","type": "atlas","name": "guild_atlas"},
+		{"url": "assets/animate/gameGuild/SF_gonghui_eff_qiaogu01.sk","type": "arraybuffer","name": "SF_gonghui_eff_qiaogu01_sk"},
+		{"url": "assets/window/gameGeneralFilter.atlas","type": "atlas","name": "gameGeneralFilter_atlas"},
+		{"url": "assets/window/gameGeneralStory.atlas","type": "atlas","name": "gameGeneralStory_atlas"},
+		{"url": "assets/window/gameGeneralInfo.atlas","type": "atlas","name": "gameGeneralInfo_atlas"},
+		{"url": "assets/window/gameGeneralTupo.atlas","type": "atlas","name": "gameGeneralTupo_atlas"},
+		{"url": "assets/window/rankWindow.atlas","type": "atlas","name": "rankWindow_atlas"},
+		{"url": "assets/window/friend.atlas","type": "atlas","name": "friend_atlas"},
+		{"url": "assets/window/dianjiang.atlas","type": "atlas","name": "dianjiang_atlas"},
+		{"url": "assets/window/gameGeneralOpen.atlas","type": "atlas","name": "gameGeneralOpen_atlas"},
+		{"url": "assets/window/gameGeneralUpGrade.atlas","type": "atlas","name": "gameGeneralUpGrade_atlas"},
+		{"url": "assets/window/gameGeneralJiangyin.atlas","type": "atlas","name": "gameGeneralJiangyin_atlas"},
+		{"url": "assets/window/mailWindow.atlas","type": "atlas","name": "mailWindow_atlas"},
+		{"url": "assets/window/sendMailWindow.atlas","type": "atlas","name": "sendMailWindow_atlas"},
+		{"url": "assets/window/replayWindow.atlas","type": "atlas","name": "replayWindow_atlas"},
+		{"url": "assets/window/seasonReward.atlas","type": "atlas","name": "seasonReward_atlas"},
+		{"url": "assets/window/qqBrowserHint.atlas","type": "atlas","name": "qqBrowserHint_atlas"},
+		{"url": "assets/window/notWebGLHint.atlas","type": "atlas","name": "notWebGLHint_atlas"},
+		{"url": "assets/window/welfare.atlas","type": "atlas","name": "welfare_atlas"},
+		{"url": "assets/window/guildWars.atlas","type": "atlas","name": "guildWars_atlas"},
+
+		{"url": "assets/guide/guide.atlas","type": "atlas","name": "guide_atlas"},
+		{"url": "assets/guide/guideStartPlotBg.png","type": "image","name": "guideStartPlotBg_png"},
+		{"url": "assets/animate/guide/guideXiaosha.sk","type": "arraybuffer","name": "guideXiaosha_sk"},
+		{"url": "assets/animate/guide/guideXiaoShaCircle.sk","type": "arraybuffer","name": "guideXiaoShaCircle_sk"},
+		{"url": "assets/animate/guide/guideDirectionArrow.sk","type": "arraybuffer","name": "guideDirectionArrow_sk"},
+		{"url": "assets/animate/guide/guideFinger.sk","type": "arraybuffer","name": "guideFinger_sk"},
+		{"url": "assets/animate/generalWindow/sf_dhua_zhaomuwj_wujiang.sk","type": "arraybuffer","name": "sf_dhua_zhaomuwj_wujiang_sk"},
+		{"url": "assets/animate/generalWindow/sf_dhua_zhaomuwj_wujiang_heng.sk","type": "arraybuffer","name": "sf_dhua_zhaomuwj_wujiang_heng_sk"},
+
+		{"url": "assets/storyPlot/storyPlot.atlas","type": "atlas","name": "storyPlot_atlas"},
+		{"url": "assets/baseUI/generalExt.atlas","type": "atlas","name": "generalExt_atlas"},
+
+		{"url": "assets/animate/generalWindow/SF_eff_tupo01.sk","type": "arraybuffer","name": "SF_eff_tupo01_sk"},
+		{"url": "assets/animate/generalWindow/SF_eff_tupo02.sk","type": "arraybuffer","name": "SF_eff_tupo02_sk"},
+		{"url": "assets/animate/generalWindow/SF_ui_eff_shengjie1.sk","type": "arraybuffer","name": "SF_ui_eff_shengjie1_sk"},
+		{"url": "assets/animate/generalWindow/SF_ui_eff_shengjie2.sk","type": "arraybuffer","name": "SF_ui_eff_shengjie2_sk"},
+		{"url": "assets/animate/generalWindow/SF_ui_eff_shengjie3.sk","type": "arraybuffer","name": "SF_ui_eff_shengjie3_sk"},
+		{"url": "assets/animate/gameAvatar/SF_ui_eff_lingqitubiao.sk","type": "arraybuffer","name": "SF_ui_eff_lingqitubiao_sk"},
+		{"url": "assets/animate/generalWindow/SF_tianlao_eff_icon.sk","type": "arraybuffer","name": "SF_tianlao_eff_icon_sk"},
+		{"url": "assets/animate/generalWindow/SF_tianlao_eff_icon2.sk","type": "arraybuffer","name": "SF_tianlao_eff_icon2_sk"},
+		{"url": "assets/animate/generalWindow/SF_tianlao_eff_biankuang.sk","type": "arraybuffer","name": "SF_tianlao_eff_biankuang_sk"},
+
+		{"url": "assets/window/secondDayReward.atlas","type": "atlas","name": "secondDayReward_atlas"},
+		{"url": "assets/animate/secondDayReward/SF_qiridenglu_eff_zhenji.sk","type": "arraybuffer","name": "SF_qiridenglu_eff_zhenji_sk"},
+
+		{"url": "assets/window/gamePray.atlas","type": "atlas","name": "gamePray_atlas"},
+		{"url": "assets/window/gamePrayShop.atlas","type": "atlas","name": "gamePrayShop_atlas"},
+		{"url": "assets/animate/pray/prayFullScreenBg.sk","type": "arraybuffer","name": "prayFullScreenBg_sk"},
+		{"url": "assets/animate/pray/SF_eff_qifu_zhanshi.sk","type": "arraybuffer","name": "SF_eff_qifu_zhanshi_sk"},
+		{"url": "assets/animate/pray/praySkinDressPetal.sk","type": "arraybuffer","name": "praySkinDressPetal_sk"},
+
+		{"url": "assets/animate/pray/prayMRTButton.sk","type": "arraybuffer","name": "prayMRTButton_sk"},
+		{"url": "assets/animate/pray/SF_qifu_eff_chuxiantx.sk","type": "arraybuffer","name": "SF_qifu_eff_chuxiantx_sk"},
+		{"url": "assets/animate/pray/SF_qifu_eff_pzhongse.sk","type": "arraybuffer","name": "SF_qifu_eff_pzhongse_sk"},
+		{"url": "assets/animate/pray/SF_qifu_eff_pzhuangse.sk","type": "arraybuffer","name": "SF_qifu_eff_pzhuangse_sk"},
+		{"url": "assets/animate/pray/SF_qifutai_eff_idle.sk","type": "arraybuffer","name": "SF_qifutai_eff_idle_sk"},
+		{"url": "assets/animate/pray/SF_qifutai_eff_kaiqi.sk","type": "arraybuffer","name": "SF_qifutai_eff_kaiqi_sk"},
+
+		{"url": "assets/window/prayFamous.atlas","type": "atlas","name": "prayFamous_atlas"},
+		{"url": "assets/window/athleticsShop.atlas","type": "atlas","name": "athleticsShop_atlas"},
+		{"url": "assets/window/activityAd.atlas","type": "atlas","name": "activityAd_atlas"},
+		{"url": "assets/window/generalize.atlas","type": "atlas","name": "generalize_atlas"},
+		{"url": "assets/animate/battle/SF_paiju_eff_pindian.sk","type": "arraybuffer","name": "SF_paiju_eff_pindian_sk"}
+	]
+}

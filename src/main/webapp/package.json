@@ -1,0 +1,25 @@
+{
+  "name": "sgs-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sgsFileParserNodeOnly.js",
+  "scripts": {
+    "build": "browserify sgsFileParser.js -o bundle.js",
+    "parse-sgs": "node sgsFileParserNodeOnly.js",
+    "json2xlsx": "node sgsJson2Xlsx.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uptonking",
+  "license": "ISC",
+  "dependencies": {
+    "file-api": "^0.10.4",
+    "file-saver": "^2.0.0",
+    "filereader": "^0.10.3",
+    "jszip": "^3.1.5",
+    "jszip-utils": "0.0.2",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
+}
