@@ -10,3 +10,7 @@
 - 限时活动 
     - baner https://web.sanguosha.com/10/pc/res/assets/runtime/window/activity/activity.png
     - 祈福经验及张宝
+
+- https://web.sanguosha.com/10/pc/res/assets/window/gameActivity.png /.webp
+    - 只提供了各种活动任务的背景和边框
+    - 每周活动任务的内容需要在代码中查找
