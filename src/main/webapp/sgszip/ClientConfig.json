@@ -1,1 +1,393 @@
-{"Remarks":{"Version":"客户端版本号","ResourceUrl":"资源绝对路径","DebugUrl":"是否测试资源绝对路径","ServerList":"服务器ip,端口列表","ServerHost":"服务器IP","ServerPort":"服务器端口","IsResourceVersion":"是否启用资源版本控制","ResourceVersion":"资源版本文件版本号","MailUrl":"邮件php地址","MailAreaID":"邮件大区id","VideoUploadUrl":"录像上传地址","VideoDownloadUrl":"录像下载传地址","VideoListdUrl":"录像列表获取地址","IsDebug":"是否DeBug调试","IsLog":"是否开启log","LoginDebug":"登录是否DeBug","LoginServiceUrl":"登陆提交的web端服务器地址","DebugStaticUrl":"登录DeBug地址","StaticUrl":"登录地址","DebugAutoLoginUrl":"登录DeBug地址","AutoLoginUrl":"登录地址","PayUrl":"充值地址","ChannleUrlInfoList":"渠道地址相关","GatherGiftUrl":"新手集结礼包规则url","BroadcastUrl":"轮播图地址","TestClose":"是否关闭功能","IsExperience":"是否体验服","ExperienceUrl":"体验服地址","LogDataUrl":"埋点数据发送地址","QrPayUrl":"二维码消费地址","QrPayStateUrl":"二维码消费状态查询地址","PvUrl":"pv视频地址","InformUrl":"举报玩家地址"},"Client":{"Version":"1.0.8","ResourceUrl":"","DebugUrl":false,"ServerList":[{"ip":"47.97.103.213","port":"8001"},{"ip":"47.97.103.213","port":"8002"},{"ip":"47.97.103.213","port":"8003"},{"ip":"47.97.103.213","port":"8004"},{"ip":"47.99.167.75","port":"8005"},{"ip":"47.99.167.75","port":"8006"},{"ip":"47.99.167.75","port":"8007"},{"ip":"47.99.167.75","port":"8008"},{"ip":"47.99.166.161","port":"8009"},{"ip":"47.99.166.161","port":"8010"},{"ip":"47.99.166.161","port":"8011"},{"ip":"47.99.166.161","port":"8012"},{"ip":"47.99.167.231","port":"8013"},{"ip":"47.99.167.231","port":"8014"},{"ip":"47.99.167.231","port":"8015"},{"ip":"47.99.167.231","port":"8016"},{"ip":"47.99.168.28","port":"8017"},{"ip":"47.99.168.28","port":"8018"},{"ip":"47.99.168.28","port":"8019"},{"ip":"47.99.168.28","port":"8020"}],"ServerHost":"47.97.103.213","ServerPort":8001,"IsResourceVersion":true,"ResourceVersion":"2018122101","MailUrl":"http://olmsg.sanguosha.com/","MailAreaID":100,"VideoUploadUrl":"http://olupload.sanguosha.com/newUpload.php","VideoDownloadUrl":"http://olupload.sanguosha.com/download.php","VideoListdUrl":"http://olupload.sanguosha.com/videoList.php","IsDebug":false,"IsLog":false,"LoginDebug":false,"LoginServiceUrl":"http://xftest.sanguosha.com","DebugStaticUrl":"http://castest.dobest.cn/authen/staticLogin.jsonp","StaticUrl":"https://cas.dobest.cn/authen/staticLogin.jsonp","DebugAutoLoginUrl":"http://castest.dobest.cn/authen/autoLogin.jsonp","AutoLoginUrl":"https://cas.dobest.cn/authen/autoLogin.jsonp","PayUrl":"http://pay2.sanguosha.com/index.html","PvUrl":"https://10thvideo.sanguosha.com/mp4/","QrPayUrl":"http://pay2.sanguosha.com/qrcode/alipay/show.html","QrPayStateUrl":"http://pay2.sanguosha.com/qrcode/alipay/order/status.html","ChannleUrlInfoList":[{"name":"官网","channelType":100,"wdUrl":"https://dlsgsnew.sanguosha.com/pc/sgs/Sgsc10thinstall.exe","payUrl":"http://paytest.sanguosha.com/index.html","loginUrl":"http://web.sanguosha.com","officalUrl":"http://www.sanguosha.com","preventAddictionUrl":"http://www.sanguosha.com/detail/20140620_9396_1316.html","CustomerServiceUrl":"https://youka.qiyukf.com/client?k=93a4c1e924bc3d18671f85c670bfd176&wp=1&gid=3764555&robotShuntSwitch=0"},{"name":"官网微端","channelType":101,"wdUrl":"https://dlsgsnew.sanguosha.com/pc/sgs/Sgsc10thinstall.exe","payUrl":"http://paytest.sanguosha.com/index.html","loginUrl":"http://web.sanguosha.com","officalUrl":"http://www.sanguosha.com","preventAddictionUrl":"http://www.sanguosha.com/detail/20140620_9396_1316.html","CustomerServiceUrl":"https://youka.qiyukf.com/client?k=93a4c1e924bc3d18671f85c670bfd176&wp=1&gid=3764555&robotShuntSwitch=0"},{"name":"4399","channelType":1001,"wdUrl":"http://my.4399.com/yxxsgs/wd-down","payUrl":"http://cz.4399.com/wpay.html?pay_union=80167&pay_money=50&username={0}&server={1}&role={2}&is_wpay={3}&random_num={4}","loginUrl":"http://my.4399.com/yxxsgs/","officalUrl":"http://my.4399.com/yxxsgs/","preventAddictionUrl":"http://u.4399.com/user/realname","CustomerServiceUrl":"http://my.4399.com/kefu/sgs.html"},{"name":"4399微端","channelType":1002,"wdUrl":"","payUrl":"http://cz.4399.com/wpay.html?pay_union=80167&pay_money=50&username={0}&server={1}&role={2}&is_wpay={3}&random_num={4}","loginUrl":"http://my.4399.com/yxxsgs/wd","officalUrl":"http://my.4399.com/yxxsgs/wd","preventAddictionUrl":"http://u.4399.com/user/realname","CustomerServiceUrl":"http://my.4399.com/kefu/sgs.html"},{"name":"百度","channelType":1003,"wdUrl":"https://dlsgsnew.sanguosha.com/pc/baidu/Sgsc10thinstall.exe","payUrl":"http://tieba.baidu.com/wanba/order?plat=4&game_id=150&server_id=2","loginUrl":"http://youxi.baidu.com/sgs/index/","officalUrl":"http://youxi.baidu.com/sgs/index/","preventAddictionUrl":"http://www.sanguosha.com/detail/20140620_9396_1316.html","CustomerServiceUrl":"http://youxi.baidu.com/cs/cs_home.xhtml"},{"name":"百度微端","channelType":1004,"wdUrl":"https://dlsgsnew.sanguosha.com/pc/baidu/Sgsc10thinstall.exe","payUrl":"http://tieba.baidu.com/wanba/order?plat=4&game_id=150&server_id=2","loginUrl":"http://lyapi.sanguosha.com/baidu/index.html","officalUrl":"http://lyapi.sanguosha.com/baidu/index.html","preventAddictionUrl":"http://www.sanguosha.com/detail/20140620_9396_1316.html","CustomerServiceUrl":"http://youxi.baidu.com/cs/cs_home.xhtml"},{"name":"飞火","channelType":1005,"wdUrl":"https://dlsgsnew.sanguosha.com/pc/feihuo/Sgsc10thinstall.exe","payUrl":"http://paytest.sanguosha.com/index.html","loginUrl":"http://lyapi.sanguosha.com/feihuo/logout","officalUrl":"https://www.feihuo.com/game/index/slug/xsgs","preventAddictionUrl":"http://www.feihuo.com/service/fcm","CustomerServiceUrl":""},{"name":"飞火微端","channelType":1006,"wdUrl":"","payUrl":"http://paytest.sanguosha.com/index.html","loginUrl":"http://lyapi.sanguosha.com/feihuo/logout","officalUrl":"https://www.feihuo.com/game/index/slug/xsgs","preventAddictionUrl":"http://www.feihuo.com/service/fcm","CustomerServiceUrl":""},{"name":"qq","channelType":1007,"wdUrl":"","payUrl":"http://5bcd773d-0.sh.1256526072.clb.myqcloud.com/qqgame/pay/windows","loginUrl":"","officalUrl":"","preventAddictionUrl":"","CustomerServiceUrl":""},{"name":"qq微端","wdUrl":"","channelType":1008,"payUrl":"","loginUrl":"","officalUrl":"","preventAddictionUrl":"","CustomerServiceUrl":""},{"name":"7k7k","channelType":1009,"wdUrl":"","payUrl":"http://pay.web.7k7k.com/charge7k?g=761&s=1&u={0}","loginUrl":"http://g.7k7k.com/games/sgsxq/","officalUrl":"http://g.7k7k.com/games/sgsxq/","preventAddictionUrl":"http://web.7k7k.com/user/index.php","CustomerServiceUrl":"http://web.7k7k.com/kf/"},{"name":"7k7k微端","channelType":1010,"wdUrl":"","payUrl":"http://pay.web.7k7k.com/charge7k?g=761&s=1&u={0}","loginUrl":"","officalUrl":"","preventAddictionUrl":"","CustomerServiceUrl":"http://web.7k7k.com/kf/"},{"name":"顺网","channelType":1021,"wdUrl":"http://download.swjoy.com/sgs/sgs.exe","payUrl":"http://lyapi.sanguosha.com/shunwang/gopay.html?account={0}","loginUrl":"http://sgs.swjoy.com","officalUrl":"http://sgs.swjoy.com","preventAddictionUrl":"https://www.swjoy.com/adult.shtml","CustomerServiceUrl":"https://www.swjoy.com/faq/"},{"name":"顺网微端","channelType":1022,"wdUrl":"","payUrl":"http://lyapi.sanguosha.com/shunwang/gopay.html?account={0}","loginUrl":"","officalUrl":"","preventAddictionUrl":"https://www.swjoy.com/faq/"},{"name":"快玩","channelType":1013,"wdUrl":"http://dl.teeqee.com/kuaiwan/custom/exe/kw_kwsgs.exe","payUrl":"http://pay.kuaiwan.com/pay/index/?game_id=9496001","loginUrl":"http://web.3dmgame.com/yy/xsgs/login?serverid=1","officalUrl":"http://kwsgs.kuaiwan.com","preventAddictionUrl":"http://user.kuaiwan.com/account/anti/indulged/","CustomerServiceUrl":"http://web.kuaiwan.com/newkefu/kefu.html"},{"name":"快玩微端","channelType":1014,"wdUrl":"","payUrl":"http://pay.kuaiwan.com/pay/index/?game_id=9496001","loginUrl":"http://web.3dmgame.com/yy/xsgs/login?serverid=1","officalUrl":"http://kwsgs.kuaiwan.com","preventAddictionUrl":"","CustomerServiceUrl":"http://web.kuaiwan.com/newkefu/kefu.html"},{"name":"602","channelType":1015,"wdUrl":"http://down.602.com/zc602_sgs.exe","payUrl":"http://lyapi.sanguosha.com/602/gopay.html?account={0}","loginUrl":"http://sgs.602.com/  ","officalUrl":"http://sgs.602.com/","preventAddictionUrl":"http://www.602.com/index.php?m=mymember&c=security&a=account_manage_fcm","CustomerServiceUrl":"http://www.602.com/kefu/"},{"name":"602微端","channelType":1016,"wdUrl":"","payUrl":"http://lyapi.sanguosha.com/602/gopay.html?account={0}","loginUrl":"http://sgs.602.com/  ","officalUrl":"http://sgs.602.com/","preventAddictionUrl":"","CustomerServiceUrl":"http://www.602.com/kefu/"},{"name":"紫霞","channelType":1017,"wdUrl":"","payUrl":"https://go.zixia.com/?action=pay&game=xsgs&uid={0}&s=1","loginUrl":"https://game.zixia.com/zxxsgs/","officalUrl":"https://game.zixia.com/zxxsgs/","preventAddictionUrl":"https://game.zixia.com/u/application/index/preventindulge/0/0/0/","CustomerServiceUrl":"https://game.zixia.com/kf/"},{"name":"紫霞微端","channelType":1018,"wdUrl":"","payUrl":"https://go.zixia.com/?action=pay&game=xsgs&uid={0}&s=1","loginUrl":"https://game.zixia.com/zxxsgs/","officalUrl":"https://game.zixia.com/zxxsgs/","preventAddictionUrl":"","CustomerServiceUrl":"https://game.zixia.com/kf/"},{"name":"3DM","channelType":1019,"wdUrl":"","payUrl":"http://web.3dmgame.com/yy/xsgs/pay?account={0}","loginUrl":"http://web.3dmgame.com/yy/xsgs/","officalUrl":"https://yeyou.3dmgame.com/zt/xsgs/","preventAddictionUrl":"https://my.3dmgame.com/setting/binding","CustomerServiceUrl":"http://wpa.qq.com/msgrd?v=3&uin=1093665419&site=qq&menu=yes"},{"name":"3DM微端","channelType":1020,"wdUrl":"","payUrl":"http://web.3dmgame.com/yy/xsgs/pay?account={0}","loginUrl":"","officalUrl":"","preventAddictionUrl":"","CustomerServiceUrl":"http://wpa.qq.com/msgrd?v=3&uin=1093665419&site=qq&menu=yes"},{"name":"YY","channelType":1025,"wdUrl":"","payUrl":"http://gameproxy.gpay.duowan.com/webgame/loadpay.do?game=XSGS&server=s1&account={0}","loginUrl":"http://xxjj.yy.com/","officalUrl":"http://xxjj.yy.com/","preventAddictionUrl":"http://fcm.duowan.com/","CustomerServiceUrl":"http://kf.duowan.com/s/home/online-service.html?source=YY&product=XXJJ"},{"name":"YY微端","channelType":1026,"wdUrl":"","payUrl":"http://gameproxy.gpay.duowan.com/webgame/loadpay.do?game=XSGS&server=s1&account={0}","loginUrl":"http://xxjj.yy.com/","officalUrl":"http://xxjj.yy.com/","preventAddictionUrl":"","CustomerServiceUrl":"http://kf.duowan.com/s/home/online-service.html?source=YY&product=XXJJ"}],"BroadcastUrl":"http://sanguosha.com/news/carousel/type/","GatherGiftUrl":"http://www.sanguosha.com/detail/20180831_1935_2220.html","TestClose":false,"IsExperience":false,"ExperienceUrl":"http://webtest.sanguosha.com/test.html","LogDataUrl":"https://ykdc.hzyoka.com/bfrd/json","InformUrl":"http://olreport.sanguosha.com"}}
+{
+  "Remarks": {
+    "Version": "客户端版本号",
+    "ResourceUrl": "资源绝对路径",
+    "DebugUrl": "是否测试资源绝对路径",
+    "ServerList": "服务器ip,端口列表",
+    "ServerHost": "服务器IP",
+    "ServerPort": "服务器端口",
+    "IsResourceVersion": "是否启用资源版本控制",
+    "ResourceVersion": "资源版本文件版本号",
+    "MailUrl": "邮件php地址",
+    "MailAreaID": "邮件大区id",
+    "VideoUploadUrl": "录像上传地址",
+    "VideoDownloadUrl": "录像下载传地址",
+    "VideoListdUrl": "录像列表获取地址",
+    "IsDebug": "是否DeBug调试",
+    "IsLog": "是否开启log",
+    "LoginDebug": "登录是否DeBug",
+    "LoginServiceUrl": "登陆提交的web端服务器地址",
+    "DebugStaticUrl": "登录DeBug地址",
+    "StaticUrl": "登录地址",
+    "DebugAutoLoginUrl": "登录DeBug地址",
+    "AutoLoginUrl": "登录地址",
+    "PayUrl": "充值地址",
+    "ChannleUrlInfoList": "渠道地址相关",
+    "GatherGiftUrl": "新手集结礼包规则url",
+    "BroadcastUrl": "轮播图地址",
+    "TestClose": "是否关闭功能",
+    "IsExperience": "是否体验服",
+    "ExperienceUrl": "体验服地址",
+    "LogDataUrl": "埋点数据发送地址",
+    "QrPayUrl": "二维码消费地址",
+    "QrPayStateUrl": "二维码消费状态查询地址",
+    "PvUrl": "pv视频地址",
+    "InformUrl": "举报玩家地址"
+  },
+  "Client": {
+    "Version": "1.0.8",
+    "ResourceUrl": "",
+    "DebugUrl": false,
+    "ServerList": [
+      {
+        "ip": "47.97.103.213",
+        "port": "8001"
+      },
+      {
+        "ip": "47.97.103.213",
+        "port": "8002"
+      },
+      {
+        "ip": "47.97.103.213",
+        "port": "8003"
+      },
+      {
+        "ip": "47.97.103.213",
+        "port": "8004"
+      },
+      {
+        "ip": "47.99.167.75",
+        "port": "8005"
+      },
+      {
+        "ip": "47.99.167.75",
+        "port": "8006"
+      },
+      {
+        "ip": "47.99.167.75",
+        "port": "8007"
+      },
+      {
+        "ip": "47.99.167.75",
+        "port": "8008"
+      },
+      {
+        "ip": "47.99.166.161",
+        "port": "8009"
+      },
+      {
+        "ip": "47.99.166.161",
+        "port": "8010"
+      },
+      {
+        "ip": "47.99.166.161",
+        "port": "8011"
+      },
+      {
+        "ip": "47.99.166.161",
+        "port": "8012"
+      },
+      {
+        "ip": "47.99.167.231",
+        "port": "8013"
+      },
+      {
+        "ip": "47.99.167.231",
+        "port": "8014"
+      },
+      {
+        "ip": "47.99.167.231",
+        "port": "8015"
+      },
+      {
+        "ip": "47.99.167.231",
+        "port": "8016"
+      },
+      {
+        "ip": "47.99.168.28",
+        "port": "8017"
+      },
+      {
+        "ip": "47.99.168.28",
+        "port": "8018"
+      },
+      {
+        "ip": "47.99.168.28",
+        "port": "8019"
+      },
+      {
+        "ip": "47.99.168.28",
+        "port": "8020"
+      }
+    ],
+    "ServerHost": "47.97.103.213",
+    "ServerPort": 8001,
+    "IsResourceVersion": true,
+    "ResourceVersion": "2018122101",
+    "MailUrl": "http://olmsg.sanguosha.com/",
+    "MailAreaID": 100,
+    "VideoUploadUrl": "http://olupload.sanguosha.com/newUpload.php",
+    "VideoDownloadUrl": "http://olupload.sanguosha.com/download.php",
+    "VideoListdUrl": "http://olupload.sanguosha.com/videoList.php",
+    "IsDebug": false,
+    "IsLog": false,
+    "LoginDebug": false,
+    "LoginServiceUrl": "http://xftest.sanguosha.com",
+    "DebugStaticUrl": "http://castest.dobest.cn/authen/staticLogin.jsonp",
+    "StaticUrl": "https://cas.dobest.cn/authen/staticLogin.jsonp",
+    "DebugAutoLoginUrl": "http://castest.dobest.cn/authen/autoLogin.jsonp",
+    "AutoLoginUrl": "https://cas.dobest.cn/authen/autoLogin.jsonp",
+    "PayUrl": "http://pay2.sanguosha.com/index.html",
+    "PvUrl": "https://10thvideo.sanguosha.com/mp4/",
+    "QrPayUrl": "http://pay2.sanguosha.com/qrcode/alipay/show.html",
+    "QrPayStateUrl": "http://pay2.sanguosha.com/qrcode/alipay/order/status.html",
+    "ChannleUrlInfoList": [
+      {
+        "name": "官网",
+        "channelType": 100,
+        "wdUrl": "https://dlsgsnew.sanguosha.com/pc/sgs/Sgsc10thinstall.exe",
+        "payUrl": "http://paytest.sanguosha.com/index.html",
+        "loginUrl": "http://web.sanguosha.com",
+        "officalUrl": "http://www.sanguosha.com",
+        "preventAddictionUrl": "http://www.sanguosha.com/detail/20140620_9396_1316.html",
+        "CustomerServiceUrl": "https://youka.qiyukf.com/client?k=93a4c1e924bc3d18671f85c670bfd176&wp=1&gid=3764555&robotShuntSwitch=0"
+      },
+      {
+        "name": "官网微端",
+        "channelType": 101,
+        "wdUrl": "https://dlsgsnew.sanguosha.com/pc/sgs/Sgsc10thinstall.exe",
+        "payUrl": "http://paytest.sanguosha.com/index.html",
+        "loginUrl": "http://web.sanguosha.com",
+        "officalUrl": "http://www.sanguosha.com",
+        "preventAddictionUrl": "http://www.sanguosha.com/detail/20140620_9396_1316.html",
+        "CustomerServiceUrl": "https://youka.qiyukf.com/client?k=93a4c1e924bc3d18671f85c670bfd176&wp=1&gid=3764555&robotShuntSwitch=0"
+      },
+      {
+        "name": "4399",
+        "channelType": 1001,
+        "wdUrl": "http://my.4399.com/yxxsgs/wd-down",
+        "payUrl": "http://cz.4399.com/wpay.html?pay_union=80167&pay_money=50&username={0}&server={1}&role={2}&is_wpay={3}&random_num={4}",
+        "loginUrl": "http://my.4399.com/yxxsgs/",
+        "officalUrl": "http://my.4399.com/yxxsgs/",
+        "preventAddictionUrl": "http://u.4399.com/user/realname",
+        "CustomerServiceUrl": "http://my.4399.com/kefu/sgs.html"
+      },
+      {
+        "name": "4399微端",
+        "channelType": 1002,
+        "wdUrl": "",
+        "payUrl": "http://cz.4399.com/wpay.html?pay_union=80167&pay_money=50&username={0}&server={1}&role={2}&is_wpay={3}&random_num={4}",
+        "loginUrl": "http://my.4399.com/yxxsgs/wd",
+        "officalUrl": "http://my.4399.com/yxxsgs/wd",
+        "preventAddictionUrl": "http://u.4399.com/user/realname",
+        "CustomerServiceUrl": "http://my.4399.com/kefu/sgs.html"
+      },
+      {
+        "name": "百度",
+        "channelType": 1003,
+        "wdUrl": "https://dlsgsnew.sanguosha.com/pc/baidu/Sgsc10thinstall.exe",
+        "payUrl": "http://tieba.baidu.com/wanba/order?plat=4&game_id=150&server_id=2",
+        "loginUrl": "http://youxi.baidu.com/sgs/index/",
+        "officalUrl": "http://youxi.baidu.com/sgs/index/",
+        "preventAddictionUrl": "http://www.sanguosha.com/detail/20140620_9396_1316.html",
+        "CustomerServiceUrl": "http://youxi.baidu.com/cs/cs_home.xhtml"
+      },
+      {
+        "name": "百度微端",
+        "channelType": 1004,
+        "wdUrl": "https://dlsgsnew.sanguosha.com/pc/baidu/Sgsc10thinstall.exe",
+        "payUrl": "http://tieba.baidu.com/wanba/order?plat=4&game_id=150&server_id=2",
+        "loginUrl": "http://lyapi.sanguosha.com/baidu/index.html",
+        "officalUrl": "http://lyapi.sanguosha.com/baidu/index.html",
+        "preventAddictionUrl": "http://www.sanguosha.com/detail/20140620_9396_1316.html",
+        "CustomerServiceUrl": "http://youxi.baidu.com/cs/cs_home.xhtml"
+      },
+      {
+        "name": "飞火",
+        "channelType": 1005,
+        "wdUrl": "https://dlsgsnew.sanguosha.com/pc/feihuo/Sgsc10thinstall.exe",
+        "payUrl": "http://paytest.sanguosha.com/index.html",
+        "loginUrl": "http://lyapi.sanguosha.com/feihuo/logout",
+        "officalUrl": "https://www.feihuo.com/game/index/slug/xsgs",
+        "preventAddictionUrl": "http://www.feihuo.com/service/fcm",
+        "CustomerServiceUrl": ""
+      },
+      {
+        "name": "飞火微端",
+        "channelType": 1006,
+        "wdUrl": "",
+        "payUrl": "http://paytest.sanguosha.com/index.html",
+        "loginUrl": "http://lyapi.sanguosha.com/feihuo/logout",
+        "officalUrl": "https://www.feihuo.com/game/index/slug/xsgs",
+        "preventAddictionUrl": "http://www.feihuo.com/service/fcm",
+        "CustomerServiceUrl": ""
+      },
+      {
+        "name": "qq",
+        "channelType": 1007,
+        "wdUrl": "",
+        "payUrl": "http://5bcd773d-0.sh.1256526072.clb.myqcloud.com/qqgame/pay/windows",
+        "loginUrl": "",
+        "officalUrl": "",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": ""
+      },
+      {
+        "name": "qq微端",
+        "wdUrl": "",
+        "channelType": 1008,
+        "payUrl": "",
+        "loginUrl": "",
+        "officalUrl": "",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": ""
+      },
+      {
+        "name": "7k7k",
+        "channelType": 1009,
+        "wdUrl": "",
+        "payUrl": "http://pay.web.7k7k.com/charge7k?g=761&s=1&u={0}",
+        "loginUrl": "http://g.7k7k.com/games/sgsxq/",
+        "officalUrl": "http://g.7k7k.com/games/sgsxq/",
+        "preventAddictionUrl": "http://web.7k7k.com/user/index.php",
+        "CustomerServiceUrl": "http://web.7k7k.com/kf/"
+      },
+      {
+        "name": "7k7k微端",
+        "channelType": 1010,
+        "wdUrl": "",
+        "payUrl": "http://pay.web.7k7k.com/charge7k?g=761&s=1&u={0}",
+        "loginUrl": "",
+        "officalUrl": "",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "http://web.7k7k.com/kf/"
+      },
+      {
+        "name": "顺网",
+        "channelType": 1021,
+        "wdUrl": "http://download.swjoy.com/sgs/sgs.exe",
+        "payUrl": "http://lyapi.sanguosha.com/shunwang/gopay.html?account={0}",
+        "loginUrl": "http://sgs.swjoy.com",
+        "officalUrl": "http://sgs.swjoy.com",
+        "preventAddictionUrl": "https://www.swjoy.com/adult.shtml",
+        "CustomerServiceUrl": "https://www.swjoy.com/faq/"
+      },
+      {
+        "name": "顺网微端",
+        "channelType": 1022,
+        "wdUrl": "",
+        "payUrl": "http://lyapi.sanguosha.com/shunwang/gopay.html?account={0}",
+        "loginUrl": "",
+        "officalUrl": "",
+        "preventAddictionUrl": "https://www.swjoy.com/faq/"
+      },
+      {
+        "name": "快玩",
+        "channelType": 1013,
+        "wdUrl": "http://dl.teeqee.com/kuaiwan/custom/exe/kw_kwsgs.exe",
+        "payUrl": "http://pay.kuaiwan.com/pay/index/?game_id=9496001",
+        "loginUrl": "http://web.3dmgame.com/yy/xsgs/login?serverid=1",
+        "officalUrl": "http://kwsgs.kuaiwan.com",
+        "preventAddictionUrl": "http://user.kuaiwan.com/account/anti/indulged/",
+        "CustomerServiceUrl": "http://web.kuaiwan.com/newkefu/kefu.html"
+      },
+      {
+        "name": "快玩微端",
+        "channelType": 1014,
+        "wdUrl": "",
+        "payUrl": "http://pay.kuaiwan.com/pay/index/?game_id=9496001",
+        "loginUrl": "http://web.3dmgame.com/yy/xsgs/login?serverid=1",
+        "officalUrl": "http://kwsgs.kuaiwan.com",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "http://web.kuaiwan.com/newkefu/kefu.html"
+      },
+      {
+        "name": "602",
+        "channelType": 1015,
+        "wdUrl": "http://down.602.com/zc602_sgs.exe",
+        "payUrl": "http://lyapi.sanguosha.com/602/gopay.html?account={0}",
+        "loginUrl": "http://sgs.602.com/  ",
+        "officalUrl": "http://sgs.602.com/",
+        "preventAddictionUrl": "http://www.602.com/index.php?m=mymember&c=security&a=account_manage_fcm",
+        "CustomerServiceUrl": "http://www.602.com/kefu/"
+      },
+      {
+        "name": "602微端",
+        "channelType": 1016,
+        "wdUrl": "",
+        "payUrl": "http://lyapi.sanguosha.com/602/gopay.html?account={0}",
+        "loginUrl": "http://sgs.602.com/  ",
+        "officalUrl": "http://sgs.602.com/",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "http://www.602.com/kefu/"
+      },
+      {
+        "name": "紫霞",
+        "channelType": 1017,
+        "wdUrl": "",
+        "payUrl": "https://go.zixia.com/?action=pay&game=xsgs&uid={0}&s=1",
+        "loginUrl": "https://game.zixia.com/zxxsgs/",
+        "officalUrl": "https://game.zixia.com/zxxsgs/",
+        "preventAddictionUrl": "https://game.zixia.com/u/application/index/preventindulge/0/0/0/",
+        "CustomerServiceUrl": "https://game.zixia.com/kf/"
+      },
+      {
+        "name": "紫霞微端",
+        "channelType": 1018,
+        "wdUrl": "",
+        "payUrl": "https://go.zixia.com/?action=pay&game=xsgs&uid={0}&s=1",
+        "loginUrl": "https://game.zixia.com/zxxsgs/",
+        "officalUrl": "https://game.zixia.com/zxxsgs/",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "https://game.zixia.com/kf/"
+      },
+      {
+        "name": "3DM",
+        "channelType": 1019,
+        "wdUrl": "",
+        "payUrl": "http://web.3dmgame.com/yy/xsgs/pay?account={0}",
+        "loginUrl": "http://web.3dmgame.com/yy/xsgs/",
+        "officalUrl": "https://yeyou.3dmgame.com/zt/xsgs/",
+        "preventAddictionUrl": "https://my.3dmgame.com/setting/binding",
+        "CustomerServiceUrl": "http://wpa.qq.com/msgrd?v=3&uin=1093665419&site=qq&menu=yes"
+      },
+      {
+        "name": "3DM微端",
+        "channelType": 1020,
+        "wdUrl": "",
+        "payUrl": "http://web.3dmgame.com/yy/xsgs/pay?account={0}",
+        "loginUrl": "",
+        "officalUrl": "",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "http://wpa.qq.com/msgrd?v=3&uin=1093665419&site=qq&menu=yes"
+      },
+      {
+        "name": "YY",
+        "channelType": 1025,
+        "wdUrl": "",
+        "payUrl": "http://gameproxy.gpay.duowan.com/webgame/loadpay.do?game=XSGS&server=s1&account={0}",
+        "loginUrl": "http://xxjj.yy.com/",
+        "officalUrl": "http://xxjj.yy.com/",
+        "preventAddictionUrl": "http://fcm.duowan.com/",
+        "CustomerServiceUrl": "http://kf.duowan.com/s/home/online-service.html?source=YY&product=XXJJ"
+      },
+      {
+        "name": "YY微端",
+        "channelType": 1026,
+        "wdUrl": "",
+        "payUrl": "http://gameproxy.gpay.duowan.com/webgame/loadpay.do?game=XSGS&server=s1&account={0}",
+        "loginUrl": "http://xxjj.yy.com/",
+        "officalUrl": "http://xxjj.yy.com/",
+        "preventAddictionUrl": "",
+        "CustomerServiceUrl": "http://kf.duowan.com/s/home/online-service.html?source=YY&product=XXJJ"
+      }
+    ],
+    "BroadcastUrl": "http://sanguosha.com/news/carousel/type/",
+    "GatherGiftUrl": "http://www.sanguosha.com/detail/20180831_1935_2220.html",
+    "TestClose": false,
+    "IsExperience": false,
+    "ExperienceUrl": "http://webtest.sanguosha.com/test.html",
+    "LogDataUrl": "https://ykdc.hzyoka.com/bfrd/json",
+    "InformUrl": "http://olreport.sanguosha.com"
+  }
+}

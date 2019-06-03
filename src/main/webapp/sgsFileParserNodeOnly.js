@@ -11,7 +11,8 @@ readLocalEncryptedSGS();
 function readLocalEncryptedSGS() {
 
     // 原加密文件.sgs所在的文件夹
-    var encryptedSGSFolder = "./sgszip/encrypted-sgs";
+//    var encryptedSGSFolder = "./sgszip/encrypted-sgs";
+    var encryptedSGSFolder = "/home/yaoo/Documents/3kingdoms/newsgs2019/encrypted-sgs";
     var files = fs.readdirSync(encryptedSGSFolder);
     // console.log(path instanceof Array) // true
 
@@ -38,7 +39,8 @@ function readLocalEncryptedSGS() {
             var decryptedJsonObj = parseEncryptedConfigFile(buffer);
 
             // 解密后生成的新文件
-            var newFile = "./sgszip/decrypted-json/" + ele.replace('.sgs', '.json');
+//            var newFile = "./sgszip/decrypted-json/" + ele.replace('.sgs', '.json');
+            var newFile = "/home/yaoo/Documents/3kingdoms/newsgs2019/decrypted-json/" + ele.replace('.sgs', '.json');
             // console.log(newFile);
 
             fs.writeFile(newFile, JSON.stringify(decryptedJsonObj), function (err) {

@@ -11,7 +11,8 @@ readJsonAndConvertToXlsx();
 function readJsonAndConvertToXlsx() {
 
     // 原加密文件所在的文件夹
-    var jsonDir = "./sgszip/decrypted-json";
+//    var jsonDir = "./sgszip/decrypted-json";
+    var jsonDir = "/home/yaoo/Documents/3kingdoms/newsgs2019/decrypted-json";
     var files = fs.readdirSync(jsonDir);
     // console.log(path instanceof Array) // true
     // console.log(files);
@@ -47,7 +48,6 @@ function readJsonAndConvertToXlsx() {
             propsArr.splice(propsArr.indexOf('Version'), 1);
             propsArr.splice(propsArr.indexOf('DoNotUseThis'), 1);
 
-            z
             // console.log('==== get arr from top');
 
             // 暂时先取第一个
@@ -104,7 +104,7 @@ function readJsonAndConvertToXlsx() {
         var workbook = XLSX.utils.book_new();
         XLSX.utils.book_append_sheet(workbook, ws, "Sheet1");
 
-        var newFile = "./sgszip/decrypted-json/xlsx/" + ele.replace('.json', '.xlsx');
+        var newFile = "/home/yaoo/Documents/3kingdoms/newsgs2019/decrypted-json/xlsx/" + ele.replace('.json', '.xlsx');
 
         // XLSX.writeFile(workbook, newFile);
         // console.log(workbook)

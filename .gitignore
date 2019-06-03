@@ -1,7 +1,10 @@
 .idea/
+*iml
 
 target/
 
 node_modules/
 
 bundle.js
+
+*attach_pid*
